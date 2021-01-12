@@ -2,13 +2,24 @@ import React, { useState } from "react";
 import "./Home.css";
 import AddIcon from "@material-ui/icons/Add";
 import RemoveIcon from "@material-ui/icons/Remove";
+import { useHistory } from "react-router-dom";
 
 function Home() {
+  const history = useHistory();
   const [displayDropdown, setDisplayDropdown] = useState(false);
   const showDropdown = () => {
     displayDropdown ? setDisplayDropdown(false) : setDisplayDropdown(true);
   };
-
+  const [factorName, setFactorName] = useState("");
+  const add_factor = () => {
+    if (factorName === "") {
+      document.getElementById("warning").style.display = "block";
+    } else {
+      history.push(`/whys`);
+      setFactorName("");
+      localStorage.setItem("factorName", factorName);
+    }
+  };
   return (
     <div className="home">
       <div className="dropdown__padding">
@@ -33,8 +44,10 @@ function Home() {
                     type="text"
                     className="form-control"
                     placeholder="enter contributing factor name"
+                    value={factorName}
+                    onChange={(e) => setFactorName(e.target.value)}
                   />
-                  <button className="btn btn-primary">
+                  <button className="btn btn-primary" onClick={add_factor}>
                     <AddIcon />
                     Add
                   </button>

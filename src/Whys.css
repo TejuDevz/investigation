@@ -1,0 +1,10 @@
+.whys {
+  background-color: #e5ecf1;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+::selection {
+  background: #d1e4f1;
+}

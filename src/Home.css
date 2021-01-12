@@ -13,7 +13,6 @@ button {
 .factors__dropdown {
   display: flex;
   align-items: center;
-  height: 50px;
 }
 
 .factors__dropdown h2 {
@@ -75,6 +74,10 @@ button {
   height: 40px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.factors__addFactor div div button:hover {
+  background-color: #00a3e9;
 }
 
 .factors__addFactor .MuiSvgIcon-root {
