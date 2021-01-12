@@ -1,0 +1,133 @@
+.home {
+  background-color: #e5ecf1;
+}
+
+::selection {
+  background: #d1e4f1;
+}
+
+button {
+  background-color: #15b2f7;
+}
+
+.factors__dropdown {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.factors__dropdown h2 {
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.factors__dropdown > .MuiSvgIcon-root {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.dropdown__padding {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*contributing factors*/
+.contributing__factor {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*add factor*/
+.factors__addFactor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 25px;
+}
+
+.factors__addFactor h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.factors__addFactor p {
+  font-size: 12px;
+  color: red;
+  border-radius: 2px;
+  margin: 0;
+  margin-left: 80px;
+  display: none;
+}
+
+.factors__addFactor div div {
+  display: flex;
+  align-items: center;
+}
+
+.factors__addFactor div div button {
+  background-color: #15b2f7;
+  border: none;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.factors__addFactor .MuiSvgIcon-root {
+  font-size: 20px;
+}
+
+.factors__addFactor div div input {
+  width: 300px;
+  height: 40px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+hr {
+  height: 1px;
+  background-color: rgb(158, 158, 158);
+  border: none;
+}
+
+@media (max-width: 600px) {
+  .factors__dropdown h2 {
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 745px) {
+  .factors__addFactor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dropdown__padding {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 276px) {
+  .factors__dropdown h2 {
+    font-size: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .factors__addFactor h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+}
