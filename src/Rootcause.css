@@ -1,0 +1,79 @@
+.rootcause {
+  display: flex;
+  flex-direction: column;
+}
+
+.padding {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.rootcause__dropdown {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.rootcause__dropdown h2 {
+  font-size: 25px;
+  margin: none;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.rootcause__dropdown .MuiSvgIcon-root {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+#hr {
+  height: 1px;
+  background-color: rgb(158, 158, 158);
+  border: none;
+}
+
+.rootcause__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+
+.rootcause__header h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .rootcause__dropdown h2 {
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 426px) {
+  .rootcause__dropdown h2 {
+    font-size: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 276px) {
+  .rootcause__dropdown h2 {
+    font-size: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+}

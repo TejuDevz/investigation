@@ -1,4 +1,4 @@
-.home {
+.main {
   background-color: #e5ecf1;
 }
 
@@ -43,7 +43,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 25px;
+  height: 0px;
 }
 
 .factors__addFactor h4 {
@@ -91,6 +91,58 @@ button {
   border-bottom-right-radius: 0;
 }
 
+.whys {
+  background-color: #e5ecf1;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.whys > h3 {
+  margin-left: 3%;
+}
+
+::selection {
+  background: #d1e4f1;
+}
+
+.whys__addWhys {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.whys__evaluations {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#linethrough_text {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 40px 0 0px;
+}
+
+#linethrough_text span {
+  background: #e5ecf1;
+  padding: 0 10px;
+}
+
+@media (max-width: 506px) {
+  .whys > h3 {
+    margin-left: 3%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 409px) {
+  .whys > h3 {
+    margin-left: 3%;
+    font-size: 14px;
+  }
+}
+
 hr {
   height: 1px;
   background-color: rgb(158, 158, 158);
@@ -127,10 +179,55 @@ hr {
   }
 }
 
+@media (max-width: 426px) {
+  .factors__dropdown h2 {
+    font-size: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+}
+
 @media (max-width: 850px) {
   .factors__addFactor h4 {
     margin: 0;
     padding: 0;
     font-size: 15px;
+  }
+}
+
+@media (max-width: 503px) {
+  .contributing__factor {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 446px) {
+  .factors__addFactor div div {
+    display: flex;
+    align-items: center;
+  }
+
+  .factors__addFactor div div button {
+    background-color: #15b2f7;
+    border: none;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .factors__addFactor div div input {
+    width: 200px;
+    height: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+@media (max-width: 503px) {
+  .contributing__factor {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }

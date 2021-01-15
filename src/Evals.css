@@ -1,0 +1,266 @@
+.eval {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 1px solid gray;
+}
+
+.eval h4 {
+  font-size: 16px;
+}
+
+.eval__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 0px;
+  border-bottom: 1px solid gray;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.eval__heading h4 {
+  font-size: 18px;
+}
+
+.eval__heading div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eval__heading div h4 {
+  font-size: 16px;
+}
+
+.eval__heading div h4 {
+  margin: 20px;
+}
+
+.eval__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.eval__body h4 {
+  font-size: 18px;
+}
+
+.eval__body div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eval__body div input {
+  margin: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+@media (max-width: 867px) {
+  .eval__heading h4 {
+    font-size: 16px;
+  }
+  .eval__heading div h4 {
+    font-size: 14px;
+  }
+
+  .eval__heading div h4 {
+    margin: 20px;
+  }
+  .eval__body h4 {
+    font-size: 16px;
+  }
+  .eval__body div input {
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 704px) {
+  .eval__heading h4 {
+    font-size: 14px;
+  }
+  .eval__heading div h4 {
+    font-size: 12px;
+  }
+
+  .eval__heading div h4 {
+    margin: 20px;
+  }
+  .eval__body h4 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 645px) {
+  .eval__heading h4 {
+    font-size: 14px;
+  }
+  .eval__heading div h4 {
+    font-size: 12px;
+  }
+
+  .eval__heading div h4 {
+    margin: 20px;
+  }
+  .eval__body h4 {
+    font-size: 14px;
+  }
+  .eval {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 568px) {
+  .eval__heading h4 {
+    font-size: 12px;
+  }
+  .eval__heading div h4 {
+    font-size: 12px;
+  }
+
+  .eval__heading div h4 {
+    margin: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .eval__body h4 {
+    font-size: 12px;
+  }
+  .eval__body div input {
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .eval__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .eval__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 587px) {
+  .eval__heading h4 {
+    font-size: 12px;
+  }
+  .eval__heading div h4 {
+    font-size: 12px;
+  }
+
+  .eval__heading div h4 {
+    margin: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .eval__body h4 {
+    font-size: 12px;
+  }
+  .eval__body div input {
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .eval__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .eval__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 503px) {
+  .eval {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .eval__heading h4 {
+    font-size: 11px;
+  }
+  .eval__heading div h4 {
+    font-size: 11px;
+  }
+
+  .eval__heading div h4 {
+    margin: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .eval__body h4 {
+    font-size: 11px;
+  }
+  .eval__body div input {
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .eval__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .eval__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
