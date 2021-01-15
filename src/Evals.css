@@ -1,15 +1,15 @@
 .eval {
   display: flex;
   flex-direction: column;
-  margin-left: 11%;
   margin-right: 11%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 1px solid gray;
+  background-color: #ededed;
 }
 
 .eval h4 {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .eval__heading {
@@ -21,10 +21,11 @@
   border-bottom: 1px solid gray;
   margin-left: 2%;
   margin-right: 2%;
+  margin-top: 15px;
 }
 
 .eval__heading h4 {
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .eval__heading div {
@@ -34,7 +35,7 @@
 }
 
 .eval__heading div h4 {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .eval__heading div h4 {
@@ -53,7 +54,7 @@
 }
 
 .eval__body h4 {
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .eval__body div {
@@ -64,23 +65,23 @@
 
 .eval__body div input {
   margin: 20px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 @media (max-width: 867px) {
   .eval__heading h4 {
-    font-size: 16px;
+    font-size: 12px;
   }
   .eval__heading div h4 {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .eval__heading div h4 {
     margin: 20px;
   }
   .eval__body h4 {
-    font-size: 16px;
+    font-size: 12px;
   }
   .eval__body div input {
     margin: 20px;
@@ -91,7 +92,7 @@
 
 @media (max-width: 704px) {
   .eval__heading h4 {
-    font-size: 14px;
+    font-size: 12px;
   }
   .eval__heading div h4 {
     font-size: 12px;
@@ -101,13 +102,13 @@
     margin: 20px;
   }
   .eval__body h4 {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
 @media (max-width: 645px) {
   .eval__heading h4 {
-    font-size: 14px;
+    font-size: 12px;
   }
   .eval__heading div h4 {
     font-size: 12px;
@@ -117,12 +118,11 @@
     margin: 20px;
   }
   .eval__body h4 {
-    font-size: 14px;
+    font-size: 12px;
   }
   .eval {
     display: flex;
     flex-direction: column;
-    margin-left: 7%;
     margin-right: 7%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -218,7 +218,6 @@
   .eval {
     display: flex;
     flex-direction: column;
-    margin-left: 3%;
     margin-right: 3%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -262,5 +261,17 @@
     border-bottom: 1px solid gray;
     margin-left: 2%;
     margin-right: 2%;
+  }
+}
+
+@media (max-width: 535px) {
+  #factor__heading {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 359px) {
+  #factor__heading {
+    font-size: 10px;
   }
 }

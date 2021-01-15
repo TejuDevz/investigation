@@ -10,18 +10,23 @@ function Evals({ factor }) {
       setDisplayWhys(false);
     }
   };
+  const [factorName, setFactorName] = useState(factor);
 
   return (
     <div className="eval">
       <div
         style={{
           backgroundColor: "white",
-          padding: 1,
+          display: "flex",
+          flexDirection: "column",
           cursor: "pointer",
+          padding: 10,
         }}
         onClick={expand}
       >
-        <h4>Contributing Factor: &nbsp;&nbsp;&nbsp;{factor}</h4>
+        <h4 id="factor__heading" style={{ margin: 0 }}>
+          Contributing Factor: &nbsp;&nbsp;&nbsp;{factorName}
+        </h4>
       </div>
       {displayWhys ? (
         <div>

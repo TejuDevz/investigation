@@ -18,22 +18,27 @@ function Rootcause() {
     <div className="rootcause">
       <div className="padding">
         <div className="rootcause__dropdown">
-          <h2 onClick={dropdownRoot}>Root Cause Statement</h2>
           {rootOpen ? (
             <RemoveIcon onClick={dropdownRoot} />
           ) : (
             <AddIcon onClick={dropdownRoot} />
           )}
+          <h2 onClick={dropdownRoot}>Root Cause Statement</h2>
         </div>
         <hr id="hr"></hr>
-        <div className="rootcause__main">
-          <div className="rootcause__header">
-            <h4>Root Cause Category</h4>
-            <h4>Root Cause Comment</h4>
-            <h4>Management System Element</h4>
-            <h4>Corrective & Preventative Action</h4>
+
+        {rootOpen ? (
+          <div className="rootcause__main">
+            <div className="rootcause__header">
+              <h4>Root Cause Category</h4>
+              <h4>Root Cause Comment</h4>
+              <h4>Management System Element</h4>
+              <h4>Corrective & Preventative Action</h4>
+            </div>
           </div>
-        </div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

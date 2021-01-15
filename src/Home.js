@@ -45,12 +45,12 @@ function Home() {
           <div className="home">
             <div className="dropdown__padding">
               <div className="factors__dropdown">
-                <h2 onClick={showDropdown}>Contributing Factors & Why's</h2>
                 {displayDropdown ? (
                   <RemoveIcon onClick={showDropdown} />
                 ) : (
                   <AddIcon onClick={showDropdown} />
                 )}
+                <h2 onClick={showDropdown}>Contributing Factors & Why's</h2>
               </div>
               <hr></hr>
               <br></br>
